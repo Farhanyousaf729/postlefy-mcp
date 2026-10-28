@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Farhanyousaf729/postlefy",
+  "title": "Postlefy",
+  "description": "Post to 11 social platforms from Claude or ChatGPT. Your AI writes; Postlefy previews and posts.",
+  "version": "1.0.0",
+  "websiteUrl": "https://postlefy.com/ai-connector",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://postlefy.com/api/mcp"
+    }
+  ]
+}
